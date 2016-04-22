@@ -1,827 +1,352 @@
-<!doctype html>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" id="sixapart-standard">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="Movable Type 5.2.2" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="苏南生的个人主页 职业：Oracle ERP技术顾问 擅长：Oracle EBS,Oracle数据库，DBA，Linux，Java" />
+<link rel="stylesheet" href="/stylesheets/theme_scrapbook.css" type="text/css" />
+<link rel="start" href="http://www.sunansheng.com/" title="Home" />
+<link rel="alternate" type="application/atom+xml" title="Recent Entries" href="http://feeds.feedburner.com/ruanyifeng" />
+<script type="text/javascript" src="http://www.sunansheng.com/mt.js"></script>
+<!--
+<rdf:RDF xmlns="http://web.resource.org/cc/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<Work rdf:about="http://www.sunansheng.com/">
+<dc:title>Su NanSheng&apos;s Personal Website</dc:title>
+<dc:description>苏南生的主页</dc:description>
+<license rdf:resource="http://creativecommons.org/licenses/by-nc-nd/3.0/" />
+</Work>
+<License rdf:about="http://creativecommons.org/licenses/by-nc-nd/3.0/">
+</License>
+</rdf:RDF>
+-->
 
 
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.sunansheng.com/rsd.xml" />
+    <title>苏南生的主页 - Powered by SNANS</title>
 
-  
+	<style>
+html{
+	width:100%;
+	height: 100%;
+	margin:0;
+	padding:0
+}
 
+body{
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	background-position:50% 50%; 
+	margin:0;
+	padding:0;
+	width:100%;
+	height:100%;
+	background-image:url(http://www.ruanyifeng.com/images_pub/pub_0.png);
+	-webkit-transition: All 2s ease;
+	-moz-transition: All 2s ease;
+	-o-transition: All 2s ease;
+	-ms-transition: All 2s ease;
+	transition: All 2s ease;
+}
 
-<html class="theme-next pisces use-motion">
-<head>
-  <meta charset="UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+body.one-column #container{
+	background-color:rgba(0,0,0,0.3);
+	border-radius: 1.5em;
+	color: #fefefe;
 
+	overflow: auto; 
+    position: absolute;
 
+	left: 50%;
+	top: 50%;
+	width:auto;
+	height:auto;
+	max-height: 80%;
+	min-width:90%;
 
-<meta http-equiv="Cache-Control" content="no-transform" />
-<meta http-equiv="Cache-Control" content="no-siteapp" />
-
-
-
-
-
-
-
-
-
-
-
-
-  <link href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css"/>
-
-
-
-
-  
-  
-  
-  
-
-  
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
     
-    
-  
+    transition: height 1s ease;
+	transition: top 1s ease;
+}
 
-  
+body.one-column #container p,
+body.one-column #container a{
+	color: #fefefe;
+	text-shadow:0 1px 1px #333
+}
 
-  
+body.one-column #container a:hover{
+	color: #868686;
+	text-decoration: underline;
+}
 
-  
+body.one-column #page-alpha p:hover,
+body.one-column #footer-content a:hover{
+	background-color: #fefefe;
+	color: #222;
+}
 
-  
+body.one-column #footer-content a:hover{
+	padding: 0.25rem;
+	border-radius: 0.5em;
+}
 
-  
-    
-    
-    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
-  
+body.one-column #page-alpha p:hover a{
+	color: #222;
+}
 
+body.one-column #page-alpha p{
+	background-color: rgba(0,0,0,0.5);
+	padding: 0.25rem;
+	border-radius: 0.5em;
+	text-shadow:0 1px 1px #333;
+}
 
+body.one-column #header{
+	/* height: 7rem; */
+	display: relative;
+	padding-bottom: 1em;
+}
 
+body.one-column #container h1{
+	font-size: 1.4rem;
+	line-height: 90%;
+	color: #fefefe;
+	float: none;
+	margin: auto;
+	padding-top: 0.4rem;
+	text-align: center;
+	font-weight: bolder;
+	text-shadow:0 1px 1px #333;
+}
 
-<link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
+body.one-column #header-content:hover h1{
+	text-decoration: underline;
+}
 
-<link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
+body.one-column #header-content h1:hover{
+	cursor:pointer;
+}
 
+/*
+body.one-column #header-content h1::after{
+	content:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUBAMAAAB/pwA+AAAALVBMVEVkLXAcHBodHRsdHRweHhseHhwfHxwfHx0gIBwgIB0gIB4hIR4hIR8iIiAjIyE9I8U+AAAAAXRSTlMAQObYZgAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfeAQQHLyUKtZO3AAAAcUlEQVQI12NgAAJWBijQYGBnYIIw2RUYeBQYcINJUQyLGJQWQji8SggJdQTzEJyFrEALwT6kowRXsEjd4ABMQZE6WFyOYZGWUqk2iAm0q0g1KADEVDoEVKAKZrIDVQaVQ2zUVEpSCXIAM5lUlZSVAhgAQrASIJnpI9IAAAAASUVORK5CYII=);
+	display:inline-block;
+	background-color: #fefefe;
+	color: #222;
+	margin-left: 0.5em;
+	padding: 5px;
+	border-radius: 100%;
+	visibility: hidden;
+}
+*/
 
-  <meta name="keywords" content="Hexo, NexT" />
+body.one-column #header-content p{
+	text-align: center;
+}
 
+body.one-column #header-content{
+	display:block;
+	text-align: center;
+	margin: auto;
+}
 
+/*
+body.one-column #header-content::before{
+	display: block;
+	margin: 0.1rem auto;
+	width: 80px;
+	height: 80px;
+	content:url(http://www.sunansheng.com/blog/images/person4_s.jpg);
+	border-radius: 40px;
+	overflow: hidden;
+}
+*/
 
+@media (min-width: 641px) and (max-width:770px){
+	body.one-column #container{
+		min-width:70%;
+	}
+}
 
+@media (min-width: 771px){
+	body.one-column #container{
+		min-width:40%;
+	}
+}
 
+#up-arrow{
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	width: 21px;
+	height: 21px;
+	background-image: url(data:image/gif;base64,R0lGODlhFgAVALMAAGNkZuLi44CBg5SVlru8vPb29tjZ2aioqW1ucIqLjOrq6sXFxgAAAAAAAAAAAAAAACH5BAAHAP8ALAAAAAAWABUAAARBUMlJq7046837LYVnJYlIEQBAmEqQpoEpvIAgHnR6dEb+GpsCwpdChDID4muQWShpi8+ARBUIqKTBkcXter9gUwQAOw==);
+	background-color: #fefefe;
+	border-radius: 100%;
+    cursor: n-resize;
+}
 
-
-
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.0.1" />
-
-
-
-
-
-
-<meta name="description" content="分享技术，记录成长">
-<meta property="og:type" content="website">
-<meta property="og:title" content="苏南生的博客">
-<meta property="og:url" content="http://yoursite.com/index.html">
-<meta property="og:site_name" content="苏南生的博客">
-<meta property="og:description" content="分享技术，记录成长">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="苏南生的博客">
-<meta name="twitter:description" content="分享技术，记录成长">
-
-
-
-<script type="text/javascript" id="hexo.configuration">
-  var NexT = window.NexT || {};
-  var CONFIG = {
-    scheme: 'Pisces',
-    sidebar: {"position":"left","display":"post"},
-    fancybox: true,
-    motion: true,
-    duoshuo: {
-      userId: 0,
-      author: '博主'
-    }
-  };
-</script>
-
-  <title> 苏南生的博客 </title>
+body.one-column #container.folded{
+	top:15px;
+	margin-top:5px;
+	height:6px;
+	overflow:hidden;
+}
+    </style>
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	  <style>
+body.one-column #container{
+	background-color: #f5f5d5;
+	color: #111111;
+	display: absolute;
+	width: 50em;
+	margin: 10% auto;
+	min-width: 0;
+	top: 10%;
+	left:25%;
+	overflow: hidden;
+}
+body.one-column #container h1,
+body.one-column #container p,
+body.one-column #container a{
+	color: #111111;
+}
+  </style>
+  <![endif]-->
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
-
-  
-
-
+<body id="classic-website" class="mt-main-index one-column">
+    <div id="container">
+        <div id="container-inner">
 
 
-
-
-
-
-
-
-  
-  
-    
-  
-
-  <div class="container one-collumn sidebar-position-left 
-   page-home 
- ">
-    <div class="headband"></div>
-
-    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-meta ">
-  
-
-  <div class="custom-logo-site-title">
-    <a href="/"  class="brand" rel="start">
-      <span class="logo-line-before"><i></i></span>
-      <span class="site-title">苏南生'S NOTE</span>
-      <span class="logo-line-after"><i></i></span>
-    </a>
-  </div>
-  <p class="site-subtitle">Oracle EBS Technology</p>
+                       <div id="header">
+    <div id="header-inner">
+        <div id="header-content" onclick="backgroundImage();return false;">
+			<h1>苏南生的主页</h1>
+			<p>Su NanSheng's Personal Website</p>
+        </div>
+    </div>
 </div>
 
-<div class="site-nav-toggle">
-  <button>
-    <span class="btn-bar"></span>
-    <span class="btn-bar"></span>
-    <span class="btn-bar"></span>
-  </button>
+
+        <div id="content">
+                <div id="content-inner">
+
+
+                    <div id="alpha">
+                    <div id="alpha-inner">
+ <div id="page-alpha"    style="margin-bottom:2em;">
+
+ <p>» <!-- a href="docs/">Articles</a> | --><a href="http://blog.sunansheng.com">CSDN Blog</a> / <a href="http://book.sunansheng.com">Book Search</a> / <a href="http://zz.sunansheng.com/">Free Magazine</a></p>
+<!-- p>» <a href="tweets/">Tweets</a></p>
+<p>» <a href="about.html">About</a></p -->
+
+</div>
+<div id="up-arrow"></div>
+<div id="page-beta">
+<!--<div id="photo">
+<p><img src="person2_150.jpg" /></p>
+<p class="photo-desc">Taken in 2005</p>
+</div>-->
+</div>
+                        </div>
+                    </div>
+
+
+                    <div id="beta">
+    <div id="beta-inner">
+
+
+
+    </div>
 </div>
 
-<nav class="site-nav">
-  
 
-  
-    <ul id="menu" class="menu">
-      
-        
-        <li class="menu-item menu-item-home">
-          <a href="/" rel="section">
-            
-              <i class="menu-item-icon fa fa-home fa-fw"></i> <br />
-            
-            首页
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-archives">
-          <a href="/archives" rel="section">
-            
-              <i class="menu-item-icon fa fa-archive fa-fw"></i> <br />
-            
-            归档
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-tags">
-          <a href="/tags" rel="section">
-            
-              <i class="menu-item-icon fa fa-tags fa-fw"></i> <br />
-            
-            标签
-          </a>
-        </li>
-      
 
-      
-    </ul>
-  
 
-  
-</nav>
 
- </div>
-    </header>
 
-    <main id="main" class="main">
-      <div class="main-inner">
-        <div class="content-wrap">
-          <div id="content" class="content">
-            
-  <section id="posts" class="posts-expand">
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/04/22/oracle-sql-performance-pre/" itemprop="url">
-                  Oracle数据库性能杂谈
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-04-22T13:41:41+08:00" content="2016-04-22">
-              2016-04-22
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/Oracle-性能优化/" itemprop="url" rel="index">
-                    <span itemprop="name">Oracle 性能优化</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/04/22/oracle-sql-performance-pre/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/04/22/oracle-sql-performance-pre/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-             <span id="/2016/04/22/oracle-sql-performance-pre/" class="leancloud_visitors" data-flag-title="Oracle数据库性能杂谈">
-               &nbsp; | &nbsp;
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               <span class="post-meta-item-text">阅读次数 </span>
-               <span class="leancloud-visitors-count"></span>
-              </span>
-          
-
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <p>数据库系统出现性能问题，其根本原因是系统资源出现瓶颈，这里的资源瓶 颈包括硬件瓶颈和软件瓶颈。内存、CPU、I/O 是硬件资源，如果这些资源出现瓶 颈，则系统出现硬件瓶颈。软件瓶颈则是由于软件设计的数据处理不合理导致的 性能问题。很多情况下，硬件瓶颈是由于应用软件的不合理导致的，我们这里说 的性能调优，其目标是在硬件资源有限的情况下，通过调整应用和配置，使得应 用软件配合硬件资源协调运行。 </p>
-<h1 id="内存问题"><a href="#内存问题" class="headerlink" title="内存问题"></a>内存问题</h1><p>现代计算机系统的内存操作要比磁盘操作快得多，因此一般认为 I/O 瓶颈是 计算机系统常见的性能瓶颈之一。数据库系统性能调优的目标之一是将所有的数 据处理置于内存中完成，因此一般认为增加内存能改善数据库系统的性能。但如 果认为若所有的数据处理都能在内存中完成，数据库系统就不存在性能问题，也 是不妥当的，因为数据库系统的性能问题涉及多种计算机资源的“争用（contention）” 与“耗尽（exhausted）”问题。 </p>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2016/04/22/oracle-sql-performance-pre/" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-        
-      
-    </div>
-    
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/04/22/oracle-concurrent/" itemprop="url">
-                  Oracle 并行操作
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-04-22T11:52:18+08:00" content="2016-04-22">
-              2016-04-22
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/Oracle/" itemprop="url" rel="index">
-                    <span itemprop="name">Oracle</span>
-                  </a>
-                </span>
-
-                
-                
-                  ， 
-                
-
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/Oracle/Oracle-DBA/" itemprop="url" rel="index">
-                    <span itemprop="name">Oracle DBA</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/04/22/oracle-concurrent/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/04/22/oracle-concurrent/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-             <span id="/2016/04/22/oracle-concurrent/" class="leancloud_visitors" data-flag-title="Oracle 并行操作">
-               &nbsp; | &nbsp;
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               <span class="post-meta-item-text">阅读次数 </span>
-               <span class="leancloud-visitors-count"></span>
-              </span>
-          
-
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <p>SQL 语句缺省是在一个 CPU上串行（Serial）执行的，即便系统中有多个 CPU存在，一个 SQL 语句也无法利用它们。这样一来一个 CPU 所能使用的资源就决定了 SQL 语句的性能。这 时提升性能的另一种方法就应运而生，也就是并行处理——同时利用多个 CPU进行工作。</p>
-<p>正统的理论界认为，企业的数据库有两种类型，OLTP 和 OLAP，前者用于业务处理，其 特点是大量的运行时间很短的事务型 SQL 语句，并行操作在这种系统中作用有限。后一种用于 数据分析，其特点是大量的查询型 SQL 语句，这里才是并行操作大展身手的舞台。但在实际的 企业环境中，由于成本的制约，可能无法部署一台单独的 OLAP 数据仓库。功能界限的也就无 法绝对切割，很多 7×24 的业务数据库也要支持数据统计分析功能，虽然理论上这些功能应该 是在一个独立的数据仓库中完成。因此无论对于数据仓库还是 OLTP 系统，并行处理是一个非 常有用的工具。 </p>
-<h1 id="并行架构"><a href="#并行架构" class="headerlink" title="并行架构"></a>并行架构</h1><p>Oracle 的并行处理是从 1996 年的 Oracle 7.3 版本开始出现的，随着 Oracle 数据库的发展， 这个功能也不断得到发展和提升。习惯上用户都觉得似乎只有数据仓库才能从并行能力中获益， 其实这中理解并不全面。Oracle 的并行处理并不局限于查询功能（SELECT），DML 操作 （INSERT、UPDATE、DELETE）、DDL 操作（CREATE TABLE、CREATE INDEX），收集统计 数据、加载数据、备份恢复等功能都已经获得了并行支持。因为并行处理可以充分利用多个硬 件资源，利用率越高，处理得效率也会更高。有了并行处理后，TB 级的数据可以在几十分钟 内完成，而不必等待一天或更长的时间，但是处理能力的提升并不是线形关系，如图 7-1 所示， 这是因为数据库处理涉及多个部件，包括 CPU、内存、磁盘 IO，这些部件如果不能同步地扩展， 那么总的性能提升能力会受限于最弱的一环，也就是短板理论。</p>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2016/04/22/oracle-concurrent/" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-        
-      
-    </div>
-    
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-  </section>
-
-  
-
-
-          </div>
-          
-
-
-          
-
-        </div>
-        
-          
-  
-  <div class="sidebar-toggle">
-    <div class="sidebar-toggle-line-wrap">
-      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
-    </div>
-  </div>
-
-  <aside id="sidebar" class="sidebar">
-    <div class="sidebar-inner">
-
-      
-
-      
-
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
-        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <img class="site-author-image" itemprop="image"
-               src="/images/default_avatar.jpg"
-               alt="nansheng.su" />
-          <p class="site-author-name" itemprop="name">nansheng.su</p>
-          <p class="site-description motion-element" itemprop="description">分享技术，记录成长</p>
-        </div>
-        <nav class="site-state motion-element">
-          <div class="site-state-item site-state-posts">
-            <a href="/archives">
-              <span class="site-state-item-count">2</span>
-              <span class="site-state-item-name">日志</span>
-            </a>
-          </div>
-
-          
-            <div class="site-state-item site-state-categories">
-              
-                <span class="site-state-item-count">3</span>
-                <span class="site-state-item-name">分类</span>
-              
+                </div>
             </div>
-          
 
-          
-            <div class="site-state-item site-state-tags">
-              <a href="/tags">
-                <span class="site-state-item-count">4</span>
-                <span class="site-state-item-name">标签</span>
-              </a>
-            </div>
-          
 
-        </nav>
+            <div id="footer">
+    <div id="footer-inner">
+        <div id="footer-content">
+        <p><a href="/">Contact</a> | admin@sunansheng.com<span id="img_placer"></span> </p>
 
-        
 
-        <div class="links-of-author motion-element">
-          
-            
-              <span class="links-of-author-item">
-                <a href="http://www.sunansheng.com" target="_blank">
-                  
-                    <i class="fa fa-github"></i>
-                  
-                  个人主页
-                </a>
-              </span>
-            
-              <span class="links-of-author-item">
-                <a href="http://blog.csdn.net/sunansheng/" target="_blank">
-                  
-                    <i class="fa fa-twitter"></i>
-                  
-                  CSDN博客
-                </a>
-              </span>
-            
-          
+
+
         </div>
+    </div>
+</div>
 
-        
-        
 
-        
-        <div class="links-of-blogroll motion-element">
-          
+
         </div>
-
-      </section>
-
-      
-
     </div>
-  </aside>
-
-
-        
-      </div>
-    </main>
-
-    <footer id="footer" class="footer">
-      <div class="footer-inner">
-        <div class="copyright" >
-  
-  &copy;  2015 - 
-  <span itemprop="copyrightYear">2016</span>
-  <span class="with-love">
-    <i class="fa fa-heart"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">nansheng.su</span>
-</div>
-
-<div class="powered-by">
-  由 <a class="theme-link" href="http://hexo.io">Hexo</a> 强力驱动
-</div>
-
-<div class="theme-info">
-  主题 -
-  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Pisces
-  </a>
-</div>
-
-
-
-      </div>
-    </footer>
-
-    <div class="back-to-top">
-      <i class="fa fa-arrow-up"></i>
-    </div>
-  </div>
-
-  
-
-<script type="text/javascript">
-  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
-    window.Promise = null;
-  }
-</script>
-
-
-
-
-
-
-
-
-
-  
-
-
-
-  
-  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
-
-  
-  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
-
-  
-  <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
-
-  
-  <script type="text/javascript" src="/vendors/velocity/velocity.min.js?v=1.2.1"></script>
-
-  
-  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js?v=1.2.1"></script>
-
-  
-  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-
-
-  
-
-
-  <script type="text/javascript" src="/js/src/utils.js?v=5.0.1"></script>
-
-  <script type="text/javascript" src="/js/src/motion.js?v=5.0.1"></script>
-
-
-
-  
-  
-
-
-  <script type="text/javascript" src="/js/src/affix.js?v=5.0.1"></script>
-
-  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.0.1"></script>
-
-
-
-  
-
-  
-
-
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.0.1"></script>
-
-
-
-  
-
-  
-    
-  
-
-  <script type="text/javascript">
-    var duoshuoQuery = {short_name:"snansblog"};
-    (function() {
-      var ds = document.createElement('script');
-      ds.type = 'text/javascript';ds.async = true;
-      ds.id = 'duoshuo-script';
-      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-      ds.charset = 'UTF-8';
-      (document.getElementsByTagName('head')[0]
-      || document.getElementsByTagName('body')[0]).appendChild(ds);
-    })();
-  </script>
-
-  
-    
-  
-
-
-
-
-
-  
-  
-  
-
-  
-
-  
-  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
-  <script>AV.initialize("leuGvK5gjuBpFkrJf7w3PU6u-gzGzoHsz", "NaAToFBQL6W5r3Acwl9ji6mN");</script>
-  <script>
-    function showTime(Counter) {
-      var query = new AV.Query(Counter);
-      var entries = [];
-      var $visitors = $(".leancloud_visitors");
-
-      $visitors.each(function () {
-        entries.push( $(this).attr("id").trim() );
-      });
-
-      query.containedIn('url', entries);
-      query.find()
-        .done(function (results) {
-          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
-
-          if (results.length === 0) {
-            $visitors.find(COUNT_CONTAINER_REF).text(0);
-            return;
-          }
-
-          for (var i = 0; i < results.length; i++) {
-            var item = results[i];
-            var url = item.get('url');
-            var time = item.get('time');
-            var element = document.getElementById(url);
-
-            $(element).find(COUNT_CONTAINER_REF).text(time);
-          }
-        })
-        .fail(function (object, error) {
-          console.log("Error: " + error.code + " " + error.message);
-        });
-    }
-
-    function addCount(Counter) {
-      var $visitors = $(".leancloud_visitors");
-      var url = $visitors.attr('id').trim();
-      var title = $visitors.attr('data-flag-title').trim();
-      var query = new AV.Query(Counter);
-
-      query.equalTo("url", url);
-      query.find({
-        success: function(results) {
-          if (results.length > 0) {
-            var counter = results[0];
-            counter.fetchWhenSave(true);
-            counter.increment("time");
-            counter.save(null, {
-              success: function(counter) {
-                var $element = $(document.getElementById(url));
-                $element.find('.leancloud-visitors-count').text(counter.get('time'));
-              },
-              error: function(counter, error) {
-                console.log('Failed to save Visitor num, with error message: ' + error.message);
-              }
-            });
-          } else {
-            var newcounter = new Counter();
-            newcounter.set("title", title);
-            newcounter.set("url", url);
-            newcounter.set("time", 1);
-            newcounter.save(null, {
-              success: function(newcounter) {
-                var $element = $(document.getElementById(url));
-                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
-              },
-              error: function(newcounter, error) {
-                console.log('Failed to create');
-              }
-            });
-          }
-        },
-        error: function(error) {
-          console.log('Error:' + error.code + " " + error.message);
-        }
-      });
-    }
-
-    $(function() {
-      var Counter = AV.Object.extend("Counter");
-      if ($('.leancloud_visitors').length == 1) {
-        addCount(Counter);
-      } else if ($('.post-title-link').length > 1) {
-        showTime(Counter);
-      }
-    });
-  </script>
-
-
-
-  
+<script>
+var pub_img_current_image;
+function backgroundImage(){
+var pub_img_path='http://www.ruanyifeng.com/images_pub/';
+
+var pub_img_num = 355;
+
+var pub_img_current_no=function(){return Math.floor(Math.random()*pub_img_num+1);};
+
+var pub_img_url=function(){return pub_img_path+'pub_'+pub_img_current_no()+'.jpg';};
+
+if (pub_img_current_image === undefined ) pub_img_current_image = pub_img_url();
+
+if ('querySelector' in document) {
+	var body = document.querySelector('body').style;
+} else {
+	var body = document.body.style;
+}
+body.backgroundSize = 'cover';
+body.backgroundRepeat = 'no-repeat';
+body.backgroundImage = 'url('+ pub_img_current_image +')';
+
+var span = document.getElementById('img_placer');
+span.innerHTML = '<span style="background-image: url('+(pub_img_current_image=pub_img_url())+');width: 0px;height: 0px;display: inline;"></span>';
+}
+backgroundImage();
+
+var up = document.getElementById('up-arrow');
+var upStatus = 0;
+
+up.addEventListener('click',function(){
+	if(upStatus === 0){
+		var container = document.getElementById('container');
+		container.setAttribute('class', 'folded');
+		up.style.backgroundImage = 'url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAYCAYAAAARfGZ1AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAHZSURBVEiJ7ZQ/ixpRFMXPeY6za7IEbbS1EGysUk0TkFjkI1imShFIioVASJsqW2wT8gW2TSsypBCLBLExEBgQ2cxodDdYKBhHDZv5c1Ooi4juGsIWCXvhNo97fu+++857FBHcVKgbI9/C/z84ROQyAahMJnMvn88fAIgB2AegA4guMrJoiAC4qt2UXPU5yT3DMB6l0+kHmqYpEQkWDTAMw8u6MAxJEiIiSikEQRAdjUY/Go3G8XA4HC/rtLVTXBiG0dR1/XkqlXqo6/rPMAw535cQES67XqxRRCKz2cydTqdPVsHAhpnX6/XTyWTy0nXdLyTvRiKRO0qpGMkYyX0AeyR1klEAmud5F7ZtvyiXy+/XWdz2/AuFwv1sNnsSj8dzMi8iyXBxQkUSnuf5rVbrValUOpYNoK1uqVQqn9vt9tPxePxVKbUcC0SESin4vh82m80jx3HebgJfCQcA0zQ/2bb9zHXdbyRBUiml6Pt+4DjOu06n88ayrF/b9Nf63DTND91u99B13e+apsHzPHEc56TX6722LGtylXbrzNejWCw+TiaTR4PB4GO/3z+sVqtn12l2hudyuYNEImEEQdCs1Wrnu2h2hgNzu2y7vL+G/2n8u7/iLXxj/AYhQQQGkT/xPgAAAABJRU5ErkJggg==)';
+        up.style.cursor = 's-resize'; 
+	} else{
+		var container = document.getElementById('container');
+		container.removeAttribute('class');
+		up.style.backgroundImage = 'url(data:image/gif;base64,R0lGODlhFgAVALMAAGNkZuLi44CBg5SVlru8vPb29tjZ2aioqW1ucIqLjOrq6sXFxgAAAAAAAAAAAAAAACH5BAAHAP8ALAAAAAAWABUAAARBUMlJq7046837LYVnJYlIEQBAmEqQpoEpvIAgHnR6dEb+GpsCwpdChDID4muQWShpi8+ARBUIqKTBkcXter9gUwQAOw==)';
+        up.style.cursor = 'n-resize';
+	}
+	upStatus = ~ upStatus;
+});
+			
+	</script>
 
 </body>
 </html>
